@@ -22,8 +22,9 @@ p.bumblebee.command ul li span { white-space: nowrap !important; overflow: hidde
 .bumblebee-action-special-lighten:hover, .tutorial { -webkit-animation: bumblebee-action-special-lighten 1s infinite; animation: bumblebee-action-special-lighten 1s infinite; }
 
 @-webkit-keyframes bumblebee-action-special-lighten {
-    50% { background-color: #ffe9d1; }
+    50% { background-color: #ffe9d1; border-color: #ffc485; }
 }
+
 @keyframes bumblebee-action-special-lighten {
-    50% { background-color: #ffe9d1; }
+    50% { background-color: #ffe9d1; border-color: #ffc485; }
 }
