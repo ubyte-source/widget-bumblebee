@@ -3,7 +3,7 @@ article.bumblebee { bottom: 48px; margin: 0; padding: 0; }
 article.bumblebee p.cloud { display: none; padding: 12px; margin: auto; }
 article.bumblebee p.cloud.show { display: block; }
 article.bumblebee p.cloud svg { fill: #ffffff; }
-article.bumblebee p.cloud svg text tspan { fill: #357ae8; stroke: #ffffff; stroke-width: 1; font-size: 64px; font-weight: bold; }
+article.bumblebee p.cloud svg text tspan { fill: #357ae8; stroke: #ffffff; stroke-width: 1; font-size: 58px; font-weight: bold; }
 
 div.bumblebee.curtain { background-color: transparent; position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 16777271; }
 
@@ -16,7 +16,7 @@ p.bumblebee.command ul li input { display: none; }
 
 p.bumblebee.command ul li:hover { background-color: #f1f1f1; color: #9e9e9e; }
 p.bumblebee.command ul li i { margin-right: 8px; color: #4787ed; }
-p.bumblebee.command ul li span { font-size: 16px; }
+p.bumblebee.command ul li span { font-size: 12px; }
 p.bumblebee.command ul li span { white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis; }
 
 .bumblebee-action-special-lighten:hover, .tutorial { -webkit-animation: bumblebee-action-special-lighten 1s infinite; animation: bumblebee-action-special-lighten 1s infinite; }
