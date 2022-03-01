@@ -645,7 +645,7 @@ Add a lighten to the lightens array
 
 The get() function returns a function that calls the callback function and activates the step
 
- * **Returns:** `` — function that calls the callback function and activates the step.
+ * **Returns:** A function that calls the callback function and activates the step.
 
 ##### `activate()`
 
@@ -746,7 +746,7 @@ Get the controller for the current view
 
 Returns an array of two strings, each of which is a valid icon name
 
- * **Returns:** `` — array of strings.
+ * **Returns:** An array of strings.
 
 ##### `static stop()`
 
@@ -804,7 +804,7 @@ Open the file
 
 Returns an array of audio files that can be played by the browser
 
- * **Returns:** `` — array of strings.
+ * **Returns:** An array of strings.
 
 ##### `static hover()`
 
