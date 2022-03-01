@@ -19,6 +19,22 @@
 
 > ## ***Class window.Bumblebee usable methods***
 
+So the basic setup looks something like this:
+
+```
+
+widgets.bumblebee = new Bumblebee();
+// widgets.bumblebee.set(<HTMLElement>, 'Text that will be played at the hover event on the selected item.');
+widgets.bumblebee.getTutorial().add(function () {
+    // this.addLighten(<HTMLElement>); Element to which the tutorial style will be added
+    this.getBubble().setText('Text that bumblebee will reproduce on automatic step tutorial.');
+    this.getBubble().show();
+}).setTerminator(function () {
+    // Function to do when the speech is finished
+});
+
+```
+
 #### Documentation
 
 ##### `static handle()`
