@@ -315,7 +315,7 @@ The constructor function creates a new instance of the class
 Clone the speech object
 
  * **Parameters:** `speech` — The speech bubble to clone.
- * **Returns:** `othing` — 
+ * **Returns:** Nothing 
 
 ##### `getBubble()`
 
@@ -367,7 +367,7 @@ Get the API key from the user
 Set the success callback for the XHR object
 
  * **Parameters:** `func` — The function to be called when the request is successful.
- * **Returns:** `othing` — 
+ * **Returns:** Nothing 
 
 ##### `getCallbackSuccess()`
 
@@ -481,7 +481,7 @@ Create an audio element if it doesn't exist, and return it
  * **Parameters:**
    * `base64` — The base64 encoded audio data.
    * `encoding` — The encoding of the audio.
- * **Returns:** `othing` — 
+ * **Returns:** Nothing 
 
 ##### `error()`
 
@@ -915,7 +915,7 @@ Returns the JavaScript representation of the object
 The function is called when the user clicks on the close button
 
  * **Parameters:** `event` — The event object that triggered the close.
- * **Returns:** `othing` — 
+ * **Returns:** Nothing 
 
 ##### `open()`
 
