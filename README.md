@@ -1,4 +1,4 @@
-# Documentation widget-bumblebee
+#### Documentation widget-bumblebee
 
 > Widget Javascript Bumblebee is a library used to create tutorial inside page with the help of a speech synthesizer.
 
@@ -17,7 +17,7 @@
     - [window.Bumblebee.Command.Li](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandli-usable-methods)
     - [window.Bumblebee.Command.Li.Icon](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandliicon-usable-methods)
 
-> ## ***Class window.Bumblebee usable methods***
+## ***Class window.Bumblebee usable methods***
 
 So the basic setup looks something like this:
 
@@ -33,9 +33,11 @@ widgets.bumblebee.getTutorial().add(function () {
     // Function to do when the speech is finished
 });
 
+document.appendChild(widgets.bumblebee.out());
+
 ```
 
-#### Documentation
+###### Documentation
 
 ##### `static handle()`
 
@@ -185,9 +187,9 @@ Remove an element from the DOM
  * **Parameters:** `element` — The element to remove from the DOM.
  * **Returns:** The return value is a boolean value.
 
-> ## ***Class window.Bumblebee.Bubble usable methods***
+## ***Class window.Bumblebee.Bubble usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `static show()`
 
@@ -270,9 +272,9 @@ Hide the element
 
 Show the element
 
-> ## ***Class window.Bumblebee.Bubble.Speech usable methods***
+## ***Class window.Bumblebee.Bubble.Speech usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `static google()`
 
@@ -502,9 +504,9 @@ If the event type is a function defined in the object, call that function
  * **Parameters:** `event` — The event object that was passed to the handler.
  * **Returns:** The function called.
 
-> ## ***Class window.Bumblebee.Tutorial usable methods***
+## ***Class window.Bumblebee.Tutorial usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `static event()`
 
@@ -579,9 +581,9 @@ It plays the tutorial.
 
 The function is called when the user clicks the "Stop" button. It first gets the generator of the tutorial steps, then it calls the deactivate method on each step. The deactivate method returns the previous step, so the function keeps a reference to the previous step. If the previous step is a step object, it calls the terminator function on the step. The terminator function is a function that is defined in the step object
 
-> ## ***Class window.Bumblebee.Tutorial.Step usable methods***
+## ***Class window.Bumblebee.Tutorial.Step usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `static lighten()`
 
@@ -659,9 +661,9 @@ Deactivates the tutorial step
 
  * **Returns:** The element itself.
 
-> ## ***Class window.Bumblebee.Tutorial.Controller usable methods***
+## ***Class window.Bumblebee.Tutorial.Controller usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `static grid()`
 
@@ -732,9 +734,9 @@ Get the controller for the current view
 
  * **Returns:** The controller.
 
-> ## ***Class window.Bumblebee.Tutorial.Controller.Button usable methods***
+## ***Class window.Bumblebee.Tutorial.Controller.Button usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `static previous()`
 
@@ -766,9 +768,9 @@ Get the controller for the current command
 
  * **Returns:** The command object.
 
-> ## ***Class window.Bumblebee.Callback usable methods***
+## ***Class window.Bumblebee.Callback usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `constructor(element, func)`
 
@@ -790,9 +792,9 @@ Get the callback function from the JavaScript object
 
  * **Returns:** The callback function.
 
-> ## ***Class window.Bumblebee.Command usable methods***
+## ***Class window.Bumblebee.Command usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `static open()`
 
@@ -927,9 +929,9 @@ Returns a boolean indicating whether the list is open
 
  * **Returns:** The status() method returns a boolean value.
 
-> ## ***Class window.Bumblebee.Command.Li usable methods***
+## ***Class window.Bumblebee.Command.Li usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `constructor(command)`
 
@@ -1038,9 +1040,9 @@ Toggle the checkbox and call the onclick function
  * **Parameters:** `event` — The event object that was passed to the function.
  * **Returns:** The `handleEvent` method is being returned.
 
-> ## ***Class window.Bumblebee.Command.Li.Icon usable methods***
+## ***Class window.Bumblebee.Command.Li.Icon usable methods***
 
-#### Documentation
+###### Documentation
 
 ##### `constructor(li)`
 
