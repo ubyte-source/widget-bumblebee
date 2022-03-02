@@ -2,22 +2,7 @@
 
 > Widget Javascript Bumblebee is a library used to create tutorial inside page with the help of a speech synthesizer.
 
-## Structure
-
-- library:
-    - [window.Bumblebee](https://github.com/energia-source/widget-bumblebee#class-windowbumblebee-usable-methods)
-    - [window.Bumblebee.Bubble](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeebubble-usable-methods)
-    - [window.Bumblebee.Bubble.Speech](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeebubblespeech-usable-methods)
-    - [window.Bumblebee.Tutorial](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorial-usable-methods)
-    - [window.Bumblebee.Tutorial.Step](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialstep-usable-methods)
-    - [window.Bumblebee.Tutorial.Controller](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialcontroller-usable-methods)
-    - [window.Bumblebee.Tutorial.Controller.Button](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialcontrollerbutton-usable-methods)
-    - [window.Bumblebee.Callback](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecallback-usable-methods)
-    - [window.Bumblebee.Command](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommand-usable-methods)
-    - [window.Bumblebee.Command.Li](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandli-usable-methods)
-    - [window.Bumblebee.Command.Li.Icon](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandliicon-usable-methods)
-
-## ***Class window.Bumblebee usable methods***
+## Usage
 
 So the basic setup looks something like this:
 
@@ -37,7 +22,22 @@ document.appendChild(widgets.bumblebee.out());
 
 ```
 
-###### Documentation
+## Structure
+
+- library:
+    - [window.Bumblebee](https://github.com/energia-source/widget-bumblebee#class-windowbumblebee-usable-methods)
+    - [window.Bumblebee.Bubble](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeebubble-usable-methods)
+    - [window.Bumblebee.Bubble.Speech](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeebubblespeech-usable-methods)
+    - [window.Bumblebee.Tutorial](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorial-usable-methods)
+    - [window.Bumblebee.Tutorial.Step](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialstep-usable-methods)
+    - [window.Bumblebee.Tutorial.Controller](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialcontroller-usable-methods)
+    - [window.Bumblebee.Tutorial.Controller.Button](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialcontrollerbutton-usable-methods)
+    - [window.Bumblebee.Callback](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecallback-usable-methods)
+    - [window.Bumblebee.Command](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommand-usable-methods)
+    - [window.Bumblebee.Command.Li](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandli-usable-methods)
+    - [window.Bumblebee.Command.Li.Icon](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandliicon-usable-methods)
+
+## ***Class window.Bumblebee usable methods***
 
 ##### `static handle()`
 
@@ -189,8 +189,6 @@ Remove an element from the DOM
 
 ## ***Class window.Bumblebee.Bubble usable methods***
 
-###### Documentation
-
 ##### `static show()`
 
 It returns the string 'show'
@@ -273,8 +271,6 @@ Hide the element
 Show the element
 
 ## ***Class window.Bumblebee.Bubble.Speech usable methods***
-
-###### Documentation
 
 ##### `static google()`
 
@@ -506,8 +502,6 @@ If the event type is a function defined in the object, call that function
 
 ## ***Class window.Bumblebee.Tutorial usable methods***
 
-###### Documentation
-
 ##### `static event()`
 
 It returns the string "ended"
@@ -582,8 +576,6 @@ It plays the tutorial.
 The function is called when the user clicks the "Stop" button. It first gets the generator of the tutorial steps, then it calls the deactivate method on each step. The deactivate method returns the previous step, so the function keeps a reference to the previous step. If the previous step is a step object, it calls the terminator function on the step. The terminator function is a function that is defined in the step object
 
 ## ***Class window.Bumblebee.Tutorial.Step usable methods***
-
-###### Documentation
 
 ##### `static lighten()`
 
@@ -663,8 +655,6 @@ Deactivates the tutorial step
 
 ## ***Class window.Bumblebee.Tutorial.Controller usable methods***
 
-###### Documentation
-
 ##### `static grid()`
 
 Returns the grid class for the grid layout
@@ -736,8 +726,6 @@ Get the controller for the current view
 
 ## ***Class window.Bumblebee.Tutorial.Controller.Button usable methods***
 
-###### Documentation
-
 ##### `static previous()`
 
 *The previous() function returns the string 'skip_previous'*
@@ -770,8 +758,6 @@ Get the controller for the current command
 
 ## ***Class window.Bumblebee.Callback usable methods***
 
-###### Documentation
-
 ##### `constructor(element, func)`
 
 The constructor function takes two parameters, an element and a function. It creates a new object and assigns the element and function to the object
@@ -793,8 +779,6 @@ Get the callback function from the JavaScript object
  * **Returns:** The callback function.
 
 ## ***Class window.Bumblebee.Command usable methods***
-
-###### Documentation
 
 ##### `static open()`
 
@@ -931,8 +915,6 @@ Returns a boolean indicating whether the list is open
 
 ## ***Class window.Bumblebee.Command.Li usable methods***
 
-###### Documentation
-
 ##### `constructor(command)`
 
 The constructor function creates a new instance of the class.
@@ -1041,8 +1023,6 @@ Toggle the checkbox and call the onclick function
  * **Returns:** The `handleEvent` method is being returned.
 
 ## ***Class window.Bumblebee.Command.Li.Icon usable methods***
-
-###### Documentation
 
 ##### `constructor(li)`
 
