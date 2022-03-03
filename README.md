@@ -30,17 +30,17 @@ document.appendChild(bumblebee.out());
 ## Structure
 
 library:
-    - [window.Bumblebee](https://github.com/energia-source/widget-bumblebee#class-windowbumblebee-usable-methods)
-    - [window.Bumblebee.Bubble](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeebubble-usable-methods)
-    - [window.Bumblebee.Bubble.Speech](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeebubblespeech-usable-methods)
-    - [window.Bumblebee.Tutorial](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorial-usable-methods)
-    - [window.Bumblebee.Tutorial.Step](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialstep-usable-methods)
-    - [window.Bumblebee.Tutorial.Controller](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialcontroller-usable-methods)
-    - [window.Bumblebee.Tutorial.Controller.Button](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialcontrollerbutton-usable-methods)
-    - [window.Bumblebee.Callback](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecallback-usable-methods)
-    - [window.Bumblebee.Command](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommand-usable-methods)
-    - [window.Bumblebee.Command.Li](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandli-usable-methods)
-    - [window.Bumblebee.Command.Li.Icon](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandliicon-usable-methods)
+- [window.Bumblebee](https://github.com/energia-source/widget-bumblebee#class-windowbumblebee-usable-methods)
+- [window.Bumblebee.Bubble](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeebubble-usable-methods)
+- [window.Bumblebee.Bubble.Speech](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeebubblespeech-usable-methods)
+- [window.Bumblebee.Tutorial](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorial-usable-methods)
+- [window.Bumblebee.Tutorial.Step](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialstep-usable-methods)
+- [window.Bumblebee.Tutorial.Controller](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialcontroller-usable-methods)
+- [window.Bumblebee.Tutorial.Controller.Button](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeetutorialcontrollerbutton-usable-methods)
+- [window.Bumblebee.Callback](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecallback-usable-methods)
+- [window.Bumblebee.Command](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommand-usable-methods)
+- [window.Bumblebee.Command.Li](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandli-usable-methods)
+- [window.Bumblebee.Command.Li.Icon](https://github.com/energia-source/widget-bumblebee#class-windowbumblebeecommandliicon-usable-methods)
 
 <br>
 
