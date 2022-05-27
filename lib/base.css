@@ -16,7 +16,7 @@ div.bumblebee.curtain ul.controller li i { font-size: 160px; color: #666; }
 p.bumblebee.command { position: relative; }
 p.bumblebee.command ul { position: absolute; width: 100% !important; display: none; }
 p.bumblebee.command ul { background-color: #fff; border: 1px solid #cecece; border-radius: 2px; }
-p.bumblebee.command ul.open { display: block; z-index: 16777271; }
+p.bumblebee.command ul.open { display: block; z-index: 16777271; text-align: left; }
 p.bumblebee.command ul li { padding: 8px; background-color: #ffffff; cursor: pointer; }
 p.bumblebee.command ul li { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 p.bumblebee.command ul li input { display: none; }
